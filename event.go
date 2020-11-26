@@ -55,9 +55,9 @@ type Event struct {
 	Revenue  *float64 `json:"revenue"`
 
 	// An identifier for the item purchased. You must send a price and quantity or revenue with this field.
-	ProductID   *string `json:"product_id"`
+	ProductID   *string `json:"productId"`
 	// The type of revenue for the item purchased. You must send a price and quantity or revenue with this field.
-	RevenueType *string `json:"revenue_type"`
+	RevenueType *string `json:"revenueType"`
 
 	// The current Latitude of the user.
 	LocationLat *float32 `json:"location_lat"`
